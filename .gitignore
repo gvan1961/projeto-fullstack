@@ -1,0 +1,26 @@
+# Java/Spring Boot (pasta backend)
+/backend/target/
+/backend/*.log
+/backend/*.class
+/backend/.mvn/
+/backend/mvnw
+/backend/mvnw.cmd
+/backend/.env
+/backend/application.properties  # Remova se quiser versionar configurações
+
+# Angular (pasta frontend)
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.angular/
+/frontend/.cache/
+/frontend/*.log
+
+# Geral
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store  # Para Mac, caso use em outro sistema
+.idea/     # Ignora arquivos do IntelliJ
+*.iml      # Ignora arquivos de módulos do IntelliJ
+.vscode/   # Ignora configurações do VS Code 
